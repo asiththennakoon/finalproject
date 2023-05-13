@@ -1,0 +1,404 @@
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 458px 663px 590px 578px;
+    grid-template-areas: 
+    "section1"
+    "section2"
+    "section3"
+    "section4";
+
+}
+
+
+/* Section 1 */
+
+.section1 {
+    background-color: white;
+    grid-area: section1;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:  ". container1 .";
+    z-index: -2;
+}
+
+.box1{
+    position: absolute;
+    width: 100%;
+    height: 406px;
+    background-color: #495E57;
+    z-index: -1;
+
+}
+
+.section1div1{
+    width: 420px;
+}
+
+.container1 {
+    grid-area: container1;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    gap: 20px;
+}
+
+.section1div1 h1 {
+    font-size: 64px;
+    padding: 0;
+    margin: 70px 0 20px 0;
+    color: #F4CE14
+    ;
+
+}
+
+.section1div1 h2 {
+    font-size: 26px;
+    padding: 0;
+    margin: 5px 0 5px 0;
+    color: white;
+}
+
+.section1div1 p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.section1div1 button {
+    height: 60px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F4CE14;
+    padding: 0;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.section1div1 {
+    margin: 0;
+    width: 375px;
+    padding: 0 0 0 0;
+}
+.section1div1 img {
+    width: 375px;
+    height: 435px;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section2 */
+
+
+.section2 {
+    background-color: white;
+    grid-area: section2;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:  ". container2 .";
+
+}
+
+.container2 {
+    grid-area: container2;
+    display:flex;
+    flex-direction: column;
+}
+
+.section2div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 40px 0 30px 0;
+}
+
+.section2div1 h1 {
+    font-size: 64px;
+    padding: 0;
+    margin: 0;
+}
+.section2div1 button {
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F4CE14;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.section2div2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container2 article {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEFEE;
+    width: 265px;
+    height: auto;
+    border-radius: 16px 16px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+
+
+
+
+.section2 article img {
+    border-radius: 16px 16px 0 0;
+    width: 265px;
+}
+
+.section2 article p, h3 {
+  padding: 4px 10px 4px 10px; /* Adjust the padding value as needed */
+}
+
+
+
+.section2div2 article div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 3 */
+
+
+.section3 {
+    background-color: #FBDABB;
+    grid-area: section3;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:  ". container3 .";
+}
+
+.container3 {
+    grid-area: container3;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.section3div1 {
+    display: flex;
+    font-size: 26px;
+    padding: 0;
+    margin: 20px 0 20px 0;
+    justify-content: center;
+}
+
+.section3div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.container3 article {
+    background-color: white;
+    width: 200px;
+    height: 175px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 10px;
+}
+.section3div2 article div {
+    display:flex;
+    gap: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Section 4 */
+
+
+.section4 {
+    background-color: white;
+    grid-area: section4;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:  ". container4 .";
+}
+
+.container4 {
+    grid-area: container4;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    gap: 20px;
+}
+
+.section4div1{
+    width: 420px;
+}
+.section4div1 h1 {
+    font-size: 64px;
+    padding: 0;
+    margin: 70px 0 20px 0;
+    color: rgb(21, 21, 21);
+
+}
+
+.section4div1 h2 {
+    font-size: 26px;
+    padding: 0;
+    margin: 5px 0 5px 0;
+    color: rgb(21, 21, 21);
+}
+
+.section4div1 p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: rgb(21, 21, 21);
+}
+
+
+.section4div2 {
+    position: relative;
+    width: 448px;
+  }
+
+  .section4div2 img {
+    width: 272px;
+    height: 338px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .bottom-left-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+
+  @media (max-width: 768px) {
+    .main {
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .section1, .section2, .section3, .section4 {
+        grid-template-columns: 1fr;
+        grid-template-areas: "container1";
+        height: auto;
+    }
+
+    .container1 {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .section2 {
+        grid-template-areas: "container2";
+    }
+
+    .container2 {
+        height: auto;
+        align-items: center;
+    }
+
+    .section3 {
+        grid-template-areas: "container3";
+    }
+
+    .container3 {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section4 {
+        grid-template-areas: "container4";
+    }
+
+    .container4 {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .section2div2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .section3div2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section4div2 {
+        position: relative;
+        width: 200px;
+        height: 300px;
+    }
+
+    .section4div2 img {
+        width: 135px;
+        height: 160px;
+        margin: 0;
+        padding: 0;
+    }
+}
