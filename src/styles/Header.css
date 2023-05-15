@@ -34,8 +34,7 @@ header {
     font-size: 64px;
     padding: 0;
     margin: 70px 0 20px 0;
-    color: #F4CE14
-    ;
+    color: #F4CE14;
 
 }
 
@@ -63,6 +62,7 @@ header {
     margin: 20px 0 20px 0;
     font-size: 20px;
     font-weight: 800;
+    color: rgb(32, 32, 32);
 }
 
 .section1div1 {
@@ -79,4 +79,11 @@ header {
 }
 
 
-
+button .custom-navlink {
+    text-decoration: none;
+    color: #495E57;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
