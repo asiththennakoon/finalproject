@@ -1,46 +1,46 @@
 nav {
     background-color: white;
-    grid-area: section1;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-areas:  ". container .";
-}
+    grid-template-areas: ". containerN .";
+  }
 
-
-.container {
-    grid-area: container;
-    display:flex;
+  .containerN {
+    grid-area: containerN;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
     gap: 20px;
     align-items: center;
-}
+  }
 
-.hamburger {
+  .hamburger {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
     gap: 28px;
   }
+
   a {
     text-decoration: none;
   }
 
   @media (max-width: 768px) {
-    nav {
-        grid-template-columns: 1fr;
-        grid-template-areas: "container";
+    .nav {
+      grid-template-columns: 1fr;
+      grid-template-areas: "container";
     }
-
+  
     .container {
-        flex-direction: column;
-        align-items: center;
+      flex-direction: column;
+      align-items: center;
     }
-
+  
     .hamburger ul {
-        flex-direction: column;
-        gap: 20px;
+      flex-direction: column;
+      gap: 20px;
     }
-}
+  }
+  

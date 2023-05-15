@@ -1,11 +1,25 @@
-// import React from 'react';
+import React from 'react';
+import image2 from '../images/restauranfood.jpg';
+import '../styles/Header.css';
 
-// function Header() {
-//   return (
-//     <header>
-//       <img src="YourLogo.png" alt="logo" />
-//     </header>
-//   );
-// }
+function Header() {
+  return (
+    <header>
+        <div className= 'box1'></div>
+        <div className='containerH'>
+            <div className='section1div1'>
+                <h1>Little Lemon</h1>
+                <h2>Chicago</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <button>Reserve a Table</button>
+            </div>
+            <div className='section1div1'>
+                <img src={image2} alt="Greeksalad" />
+            </div>
+        </div>
 
-// export default Header;
+    </header>
+  );
+}
+
+export default Header;

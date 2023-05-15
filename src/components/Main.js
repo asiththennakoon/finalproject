@@ -1,6 +1,5 @@
 import React from 'react';
 import image1 from '../images/greek salad.jpg';
-import image2 from '../images/restauranfood.jpg';
 import image3 from '../images/restaurant.jpg';
 import image4 from '../images/restaurant chef B.jpg';
 import '../styles/Main.css';
@@ -10,22 +9,7 @@ import '../styles/Main.css';
 function Main() {
   return (
     <main className='main'>
-      <section className='section1'>
-        <div className= 'box1'></div>
-        <div className='container1'>
-            <div className='section1div1'>
-                <h1>Little Lemon</h1>
-                <h2>Chicago</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <button>Reserve a Table</button>
-            </div>
-            <div className='section1div1'>
-                <img src={image2} alt="Greeksalad" />
-            </div>
-        </div>
-      </section>
-
-      <section className='section2'>
+      <section className='section2' id='section2'>
       <div className='container2'>
         <div className='section2div1'>
         <h1>This week specials!</h1>
